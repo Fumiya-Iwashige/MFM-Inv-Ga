@@ -74,7 +74,7 @@ m_0 = apply(data, 1, mean)
 C_0 = cov(t(data))
 
 ### MFM-Inv-Ga ###
-
+set.seed(11111)
 #source("your path including a "IG_functions.R" file.")
 History = MCMC_IG_blocking_multi_normal(data, 
                                          MCMC_iteration, 
@@ -89,7 +89,7 @@ pp_M_IG = PP_output(MCMC_iteration, burn_in, History, length(pp_M_IG), "M")
 pp_k_IG = PP_output(MCMC_iteration, burn_in, History, length(pp_M_IG), "k")
 
 ### MFM-Ga ###
-
+set.seed(11111)
 #source("your path including a "Ga_functions.R" file.")
 History = MCMC_Ga_blocking_multi_normal(data, 
                                         MCMC_iteration, 
