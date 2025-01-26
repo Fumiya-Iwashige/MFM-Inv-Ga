@@ -1,6 +1,6 @@
 rm(list=ls())
 
-library(extraDistr)
+#library(extraDistr)
 library(GIGrvg)
 library(statmod)
 library(ggplot2)
@@ -72,7 +72,7 @@ Q_shape1 = Q_shape2 = 1
 a_lambda = b_lambda = 1
 
 ### MFM-Inv-Ga ###
-
+set.seed(11111)
 #source("your path including a "IG-functions_network.R" file.")
 History_IG = MCMC_IG_network(data,
                              MCMC_iteration,
@@ -87,9 +87,9 @@ pp_k_IG = PP_output(MCMC_iteration, burn_in, History_IG, length(pp_k_IG), "k")
 
 
 ### MFM-Ga ###
-
+set.seed(11111)
 #source("your path including a "Ga_functions_network.R" file.")
-History_Ga = MCMC_Ga_network(Ad_matrix, 
+History_Ga = MCMC_Ga_network(data, 
                              MCMC_iteration, 
                              Q_shape1, 
                              Q_shape2, 
