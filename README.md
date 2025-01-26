@@ -1,6 +1,6 @@
 # MFM-Inv-Ga
-I provide MFM-Inv-Ga and MFM-Ga R code in this repository.
-This repository has the following function files.
+I provide MFM-Inv-Ga and MFM-Ga R code in this repository.  
+This repository has the following function files.  
   **'IG-functions.R'**: a function file for Gibbs samplers in MFM-Inv-Ga for cluster analysis and density estimation
   **'Ga-functions.R'**: a function file for Gibbs samplers in MFM-Ga for cluster analysis and density estimation
   **'IG_functions_network.R'**: a function file for Gibbs samplers in MFM-Inv-Ga for community detection
