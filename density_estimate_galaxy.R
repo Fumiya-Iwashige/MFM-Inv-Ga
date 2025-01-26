@@ -56,7 +56,7 @@ b_lambda = 1 / 5
 m_0 = data_length / 2
 
 ### MFM-Inv-Ga ###
-
+set.seed(11111)
 #source("your path including a "IG_functions.R" file.")
 #source("your path including a "density_output.R" file.")
 History_IG = MCMC_IG_blocking_uni_normal(data,
@@ -86,7 +86,7 @@ g = g + geom_histogram(data = data.frame(galaxy), aes(x = galaxy, y = ..density.
 plot(g)
 
 ### MFM-Ga ###
-
+set.seed(11111)
 #source("your path including a "Ga_functions.R" file.")
 History_Ga = MCMC_Ga_blocking_uni_normal(data, 
                                           MCMC_iteration, 
