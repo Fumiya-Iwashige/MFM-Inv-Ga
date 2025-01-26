@@ -1,6 +1,6 @@
 # MFM-Inv-Ga
 I provide MFM-Inv-Ga and MFM-Ga R code in this repository. This repository has the following function files.  
-*'IG-functions.R': for cluster analysis and density estimation with MFM-Inv-Ga  
+ *'IG-functions.R': for cluster analysis and density estimation with MFM-Inv-Ga  
 -'Ga-functions.R': for cluster analysis and density estimation with MFM-Ga  
 -'IG_functions_network.R': for community detection with MFM-Inv-Ga  
 -'Ga_functions_network.R': for community detection with MFM-Ga  
