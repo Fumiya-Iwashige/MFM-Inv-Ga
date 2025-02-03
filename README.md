@@ -1,5 +1,9 @@
 # MFM-Inv-Ga
-I provide MFM-Inv-Ga and MFM-Ga R code in this repository. This repository has the following function files.  
+This repository provides R codes for MFM-Inv-Ga and MFM-Ga. These methods are proposed by the following paper.
+
+Iwashige. F., Hashimoto. S. (2025), Bayesian mixture modeling using a mixture of finite mixtures with normalized inverse Gaussian weights. 	arXiv:2501.18854
+
+This repository has the following function files. 
 
 * ```IG_functions.R```: for cluster analysis and density estimation with MFM-Inv-Ga  
 * ```Ga_functions.R```: for cluster analysis and density estimation with MFM-Ga  
