@@ -1,7 +1,7 @@
 # MFM-Inv-Ga
-This repository provides R codes for MFM-Inv-Ga and MFM-Ga. These methods are proposed by the following paper.
+This repository provides R codes for MFM-Inv-Ga and MFM-Ga. These methods are dealt with in the following paper.
 
-Iwashige. F., Hashimoto. S. (2025), Bayesian mixture modeling using a mixture of finite mixtures with normalized inverse Gaussian weights. 	arXiv:2501.18854
+Iwashige. F., Hashimoto. S. (2025). Bayesian mixture modeling using a mixture of finite mixtures with normalized inverse Gaussian weights. 	arXiv:2501.18854
 
 This repository has the following function files. 
 
