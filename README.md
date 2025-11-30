@@ -10,7 +10,7 @@ This repository has the following function files. Please refer to the comments f
 * ```IG_functions_general.R```: This file is basic fail for all files involved MFM-IGau and DMFM-IGau. Please load this file before above files are loaded.
 * ```summary.R``:  This file is used to summarize MCMC output.
 
-The same applies to the function files for MFM-Ga and DMFM-Ga (```IG_functions_MFM.R```, ```IG_functions_DMFM.R```, ```IG_functions_MFM_network.R```,  ```IG_functions_DMFM_network.R``` and ```IG_functions_general.R```)
+The same applies to the function files for MFM-Ga and DMFM-Ga (```Ga_functions_MFM.R```, ```Ga_functions_DMFM.R```, ```Ga_functions_MFM_network.R```,  ```Ga_functions_DMFM_network.R``` and ```Ga_functions_general.R```)
 
 This repository has the following files for one shot example.
 
